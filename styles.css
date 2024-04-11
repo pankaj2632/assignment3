@@ -1,0 +1,179 @@
+/* Resetting default margin, padding, and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling for the body */
+body {
+  font-family: "Roboto", sans-serif; /* Using Roboto font for body text */
+  background-color: #f0f0f0; /* Updated background color */
+  color: #444; /* Updated text color */
+  margin: 0; /* Resetting margin */
+  padding: 0; /* Resetting padding */
+}
+
+/* Styling for the header */
+header {
+  background-color: #222; /* Updated background color */
+  color: white; /* Updated text color */
+  padding: 40px; /* Padding */
+  text-align: center; /* Center aligning text */
+  margin: 20px; /* Margin */
+}
+
+/* Styling for h1 */
+h1 {
+  margin: 30px 0; /* Margin */
+  font-family: "Montserrat", sans-serif; /* Using Montserrat font */
+  font-weight: 700; /* Font weight */
+}
+
+/* Styling for navigation */
+nav {
+  margin-top: 10px; /* Top margin */
+}
+
+/* Styling for navigation links */
+nav a {
+  margin-right: 20px; /* Right margin */
+  text-decoration: none; /* Removing underline */
+  color: white; /* Text color */
+  transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+  color: black; /* Text color on hover */
+}
+
+/* Styling for main content */
+main {
+  padding: 20px; /* Padding */
+}
+
+/* Styling for paragraphs */
+p {
+  line-height: 1.6; /* Line height */
+  color: #666; /* Updated text color */
+}
+
+/* Styling for forms */
+form {
+  margin: 20px 200px; /* Margin */
+  display: grid; /* Using grid layout */
+  gap: 10px; /* Gap between grid items */
+}
+
+/* Hover effect for buttons */
+button:hover {
+  background-color: #e65c00; /* Background color on hover */
+}
+
+/* Styling for hero section */
+.hero {
+  text-align: center; /* Center aligning text */
+  padding: 50px 0; /* Padding */
+  background-color: #222; /* Updated background color */
+  color: #fff; /* Text color */
+}
+
+/* Styling for testimonials section */
+.testimonials {
+  margin-top: 50px; /* Top margin */
+  text-align: center; /* Center aligning text */
+}
+
+/* Styling for individual testimonials */
+.testimonial {
+  background-color: #f9f9f9; /* Background color */
+  padding: 10px; /* Padding */
+  margin-bottom: 10px; /* Bottom margin */
+}
+
+/* Styling for paragraphs inside testimonials */
+.testimonial p {
+  margin: 30px 0; /* Margin */
+  font-style: italic; /* Italics */
+}
+
+/* Styling for the last paragraph inside testimonials */
+.testimonial p:last-child {
+  font-weight: bold; /* Bold font weight */
+}
+
+/* Styling for about section */
+.about {
+  max-width: 800px; /* Maximum width */
+  margin: 20px auto; /* Margin */
+  padding: 20px; /* Padding */
+  background-color: #f9f9f9; /* Background color */
+  border-radius: 5px; /* Border radius */
+}
+
+/* Styling for FAQ section */
+.faq {
+  max-width: 800px; /* Maximum width */
+  margin: 20px auto; /* Margin */
+  padding: 20px; /* Padding */
+  background-color: #f9f9f9; /* Background color */
+  border-radius: 5px; /* Border radius */
+}
+
+/* Styling for individual FAQ items */
+.faq-item {
+  margin-bottom: 20px; /* Bottom margin */
+}
+
+/* Styling for h2 inside FAQ */
+h2 {
+  color: white; /* Text color */
+  margin-bottom: 30px; /* Bottom margin */
+}
+
+.heading1 {
+  color: #222;
+}
+
+.heading2 {
+  color: #222;
+}
+
+/* Styling for h3 */
+h3 {
+  color: #555; /* Text color */
+  margin-bottom: 20px; /* Bottom margin */
+}
+
+/* Styling for paragraphs */
+p {
+  color: #777; /* Text color */
+  line-height: 1.5; /* Line height */
+}
+
+/* Styling for contact section */
+.contact h2 {
+  text-align: center; /* Center aligning text */
+}
+
+/* Styling for paragraphs inside contact section */
+.contact p {
+  text-align: center; /* Center aligning text */
+}
+
+/* Styling for footer */
+footer {
+  text-align: center; /* Center aligning text */
+  padding: 10px; /* Padding */
+  background-color: #222; /* Updated background color */
+  color: #fff; /* Updated text color */
+}
+
+.heading3{
+    color: black;
+}
+.product{
+display: inline-block;
+padding: 15px;
+}

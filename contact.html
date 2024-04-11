@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Linking to external stylesheet -->
+    <script src="script.js" defer></script> <!-- Linking to external JavaScript file with defer attribute -->
+    <link rel="icon" href="images/logo.png" type="image/png"> <!-- Setting favicon -->
+</head>
+
+<body>
+    <header>
+        <h1>Contact Our Travel Company</h1> <!-- Heading for the page -->
+        <nav>
+            <a href="index.html">Home</a> <!-- Navigation link to home page -->
+            <a href="about.html">About</a> <!-- Navigation link to about page -->
+            <a href="contact.html">Contact</a> <!-- Navigation link to contact page (current page) -->
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <h2 class="heading3">Get in Touch</h2> <!-- Heading for contact section -->
+            <p>Have a question or want to book a trip? Contact us using the form below.</p>
+            <!-- Introduction paragraph -->
+            <form id="contactForm"> <!-- Contact form -->
+                <label for="name">Name:</label> <!-- Label for name input -->
+                <input type="text" id="name" name="name" required> <!-- Name input field -->
+                <label for="email">Email:</label> <!-- Label for email input -->
+                <input type="email" id="email" name="email" required> <!-- Email input field -->
+                <label for="message">Message:</label> <!-- Label for message textarea -->
+                <textarea id="message" name="message" required></textarea> <!-- Message textarea -->
+                <button type="submit">Submit</button> <!-- Submit button -->
+            </form>
+        </section>
+    </main>
+    <footer>
+        All Rights Reserved &copy; 2024 Furniture Company  <!-- Footer content -->
+    </footer>
+
+</body>
+
+</html>
